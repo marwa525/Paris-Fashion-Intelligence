@@ -23,7 +23,12 @@ The entire pipeline runs in a single Python environment with no external databas
 - CSV export for further analysis
 - Fallback dataset — works without API key
 
-![Dashboard Overview](1.png)
+![Dashboard Overview](2.png)
+![Screenshot](3.png)
+![Screenshot](4.png)
+
+
+
 
 
 ## Setup
