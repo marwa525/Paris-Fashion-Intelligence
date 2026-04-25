@@ -8,6 +8,14 @@ Live NLP sentiment dashboard for luxury fashion brands.
 pip install -r requirements.txt
 streamlit run app.py
 
-## Overview
+## Overview 
 
-This project tracks real-time media sentiment across major luxury fashion houses using news data and natural language processing. It answers one question: **who is winning the narrative right now?**
+The fashion industry generates millions of data points daily — runway coverage, product launches, executive moves, controversies. Most of this signal is unstructured text scattered across news outlets, blogs, and social platforms.
+
+Paris Fashion Intelligence extracts structured insight from that noise. It connects to NewsAPI to pull recent English-language articles for selected luxury brands, applies a lightweight keyword-based sentiment classifier, and surfaces three analytical views:
+
+1. **Ranking** — which brand has the strongest positive-to-negative ratio right now
+2. **Composition** — how positive, neutral, and negative articles break down per brand
+3. **Correlation** — whether higher article volume correlates with better sentiment
+
+The entire pipeline runs in a single Python environment with no external database or cloud service required. It is designed for reproducibility: anyone can clone the repo, add a free NewsAPI key, and generate fresh results in under a minute.
