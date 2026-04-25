@@ -14,6 +14,15 @@ Paris Fashion Intelligence extracts structured insight from that noise. It conne
 
 The entire pipeline runs in a single Python environment with no external database or cloud service required. It is designed for reproducibility: anyone can clone the repo, add a free NewsAPI key, and generate fresh results in under a minute.
 
+## Features
+
+- Live data fetching from NewsAPI with cache management
+- Sentiment ranking with tiered color coding
+- Article breakdown (positive / neutral / negative)
+- Volume vs. sentiment scatter plot
+- CSV export for further analysis
+- Fallback dataset — works without API key
+
 ## Setup
 
 ```bash
